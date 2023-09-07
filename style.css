@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+.container {
+	width: 500px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-size: 30px;
+	text-transform: capitalize;
+	padding: 10px;
+}
+.checked {
+	color: gray;
+	text-decoration: line-through;
+}
+input {
+	font-size: 30px;
+	padding: 10px;
+	width: 100%;
+	outline: none;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
